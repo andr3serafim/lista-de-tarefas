@@ -54,7 +54,7 @@ function TodoList() {
                 {
                     lista.length < 1
                         ?
-                        <img src={icon} />
+                        <img style={{maxWidth:"400px"}} src={icon} />
                         :
                         lista.map((item, index) => (
                             <div key={index} className={item.isCompleted ? "item-completo" : "item"}>
