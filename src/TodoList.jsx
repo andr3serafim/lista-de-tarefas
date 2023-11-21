@@ -40,7 +40,7 @@ function TodoList() {
 
     return (
         <div>
-            <h1>Lista de tarefas</h1>
+            <h1 className='titulo-form'>Lista de tarefas</h1>
             <form onSubmit={handleSubmit}>
                 <input type="text"
                     name=""
@@ -54,7 +54,7 @@ function TodoList() {
                 {
                     lista.length < 1
                         ?
-                        <img style={{maxWidth:"400px"}} src={icon} />
+                        <img className='imagem' src={icon} />
                         :
                         lista.map((item, index) => (
                             <div key={index} className={item.isCompleted ? "item-completo" : "item"}>
