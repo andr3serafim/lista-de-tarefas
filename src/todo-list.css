@@ -126,8 +126,10 @@ input {
     .item-completo {
         width: 350px;
     }
-    .lista-tarefas {
-        
+    form button {
+        height: 60px;
+        border: 1px #ddd solid;
+        margin-left: 5px;
     }
     .delete-all {
         width: 250px;
